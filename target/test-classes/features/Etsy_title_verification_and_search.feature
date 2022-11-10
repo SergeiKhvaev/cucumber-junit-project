@@ -1,4 +1,3 @@
-@Etsy
 Feature: Etsy search verification
   User story: As a user when I am on etsy search page,
   I able to search whatever I want and see relevant information

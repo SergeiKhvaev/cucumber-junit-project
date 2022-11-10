@@ -9,13 +9,12 @@ Feature: Wikipedia Search Functionality and verifications
     And User clicks wiki search button
     Then User sees Steve Jobs is in the wiki title
 
-
+@smoke
   Scenario: Wikipedia Search Functionality Title Verification
     When User types "Lamborghini" in the wiki search box
     And User clicks wiki search button
     Then User sees "Lamborghini" is in the wiki title
 
-  @scenarioOutlinePractice
   Scenario Outline:Wikipedia Search Functionality Title Verification
   with using DATA DRIVEN TESTING
     When User types "<searchValue>" in the wiki search box

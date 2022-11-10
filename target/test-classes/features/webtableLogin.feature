@@ -15,7 +15,6 @@ Feature: User should be able to Login with valid credentials
     When user enter username "Test" password "Tester" and logins
     Then user should see url contains orders
 
-  @webtableApp
   Scenario: Login scenario with data table
     When user enters below credentials
       | username     | Test   |

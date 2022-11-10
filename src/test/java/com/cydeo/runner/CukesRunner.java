@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 // use cukerunner to control work, all do from here
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {
+        "json:target/cucumber.json", // for cucumber report???? Something from Mehmet
         "pretty",// to coloring console information,
         "html:target/cucumber-reports.html",// we define path and type of file for delivery reports, before : you see name of file
         "rerun:target/rerun.txt", // create file to keep there failed scenarios in order to rerun those failed scenarios (TC) after we fix ussuies, before : you see name of file

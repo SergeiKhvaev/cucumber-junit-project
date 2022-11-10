@@ -19,7 +19,6 @@ Feature:User should be able to place order and order seen in web table
     #env=https://web-table-2.cydeo.com/login
   #data Driven test (DDT) example
 
-  @WebTableOrder
   Scenario Template: User should be able to place order and order seen in web table with using DDT
     Given user is already logged in and on order page
     When user selects product type "<productType>"
