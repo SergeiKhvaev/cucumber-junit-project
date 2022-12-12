@@ -22,7 +22,6 @@ public class GoogleSearch_StepDefinitions {
     public void user_types_apple_in_the_google_search_box_and_clicks_enter() {
         googleSearchPage.searchBox.sendKeys("apple" + Keys.ENTER);
        // googleSearchPage.searchBox.click();
-
     }
     @Then("user sees apple - Google Search is in the google title")
     public void user_sees_apple_google_search_is_in_the_google_title() {

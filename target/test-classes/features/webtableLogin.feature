@@ -14,7 +14,7 @@ Feature: User should be able to Login with valid credentials
   Scenario: Login scenario with 2 parameters
     When user enter username "Test" password "Tester" and logins
     Then user should see url contains orders
-
+@table
   Scenario: Login scenario with data table
     When user enters below credentials
       | username     | Test   |
